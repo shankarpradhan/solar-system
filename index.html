@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>3D Solar System</title>
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+<body>
+  <div id="search-container">
+    <input type="text" id="search" placeholder="Search planet (e.g., Earth, Mars)...">
+    <div id="planet-list"></div>
+  </div>
+  
+  <div id="info">Click any planet to zoom in, or search and click to view details</div>
+  
+  <div id="controls">
+    <button id="zoomOutBtn">Zoom Out</button>
+    <button id="toggleOrbitsBtn">Show Orbits</button>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+  <script src="./js/script.js"></script>
+</body>
+</html>
